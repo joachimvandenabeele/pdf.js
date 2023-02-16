@@ -1,5 +1,6 @@
 {
   "name": "pdf.js",
+  "version": "0.1.0",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
@@ -66,10 +67,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozilla/pdf.js.git"
+    "url": "git://github.com/joachimvandenabeele/pdf.js.git"
   },
-  "license": "Apache-2.0",
-  "dependencies": {
-    "pdfjs-dist": "file:build/dist"
-  }
+  "license": "Apache-2.0"
 }

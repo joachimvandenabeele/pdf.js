@@ -153,7 +153,7 @@ function getDocument(src) {
   const docId = task.docId;
   const fetchDocParams = {
     docId,
-    apiVersion: '3.4.114',
+    apiVersion: '3.4.117',
     data,
     password,
     disableAutoFetch,
@@ -1890,7 +1890,7 @@ class InternalRenderTask {
     }
   }
 }
-const version = '3.4.114';
+const version = '3.4.117';
 exports.version = version;
-const build = 'd33a634a4';
+const build = '77dd04e54';
 exports.build = build;

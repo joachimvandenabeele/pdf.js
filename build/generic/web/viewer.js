@@ -5121,6 +5121,7 @@ class PDFFindController {
     this.#updateMatchesCountOnProgress = updateMatchesCountOnProgress;
     this.#reset();
     eventBus._on("find", this.#onFind.bind(this));
+    eventBus._on("yolo", this.#onFind.bind(this));
     eventBus._on("findbarclose", this.#onFindBarClose.bind(this));
   }
   get highlightMatches() {
@@ -8431,7 +8432,7 @@ class PDFViewer {
   #onVisibilityChange = null;
   #scaleTimeoutId = null;
   constructor(options) {
-    const viewerVersion = '3.4.114';
+    const viewerVersion = '3.4.117';
     if (_pdfjsLib.version !== viewerVersion) {
       throw new Error(`The API version "${_pdfjsLib.version}" does not match the Viewer version "${viewerVersion}".`);
     }
@@ -13742,8 +13743,8 @@ var _ui_utils = __webpack_require__(3);
 var _app_options = __webpack_require__(5);
 var _pdf_link_service = __webpack_require__(7);
 var _app = __webpack_require__(2);
-const pdfjsVersion = '3.4.114';
-const pdfjsBuild = 'd33a634a4';
+const pdfjsVersion = '3.4.117';
+const pdfjsBuild = '77dd04e54';
 const AppConstants = {
   LinkTarget: _pdf_link_service.LinkTarget,
   RenderingStates: _ui_utils.RenderingStates,

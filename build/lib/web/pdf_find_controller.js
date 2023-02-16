@@ -219,6 +219,7 @@ class PDFFindController {
     this.#updateMatchesCountOnProgress = updateMatchesCountOnProgress;
     this.#reset();
     eventBus._on("find", this.#onFind.bind(this));
+    eventBus._on("yolo", this.#onFind.bind(this));
     eventBus._on("findbarclose", this.#onFindBarClose.bind(this));
   }
   get highlightMatches() {

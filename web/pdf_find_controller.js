@@ -403,6 +403,7 @@ class PDFFindController {
   }
 
   #onFind(state) {
+    console.log("LE ME WANTS TO FIND SOMETHINGGG");
     if (!state) {
       return;
     }

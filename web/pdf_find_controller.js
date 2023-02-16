@@ -363,7 +363,6 @@ class PDFFindController {
     this.#reset();
     eventBus._on("find", this.#onFind.bind(this));
     eventBus._on("findbarclose", this.#onFindBarClose.bind(this));
-    eventBus._on("findKeywords", this.#onFind.bind(this));
   }
 
   get highlightMatches() {
@@ -404,6 +403,7 @@ class PDFFindController {
   }
 
   #onFind(state) {
+    console.log("LE ME WANTS TO FIND SOMETHINGGG");
     if (!state) {
       return;
     }

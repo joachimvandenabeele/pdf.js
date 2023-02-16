@@ -63,13 +63,12 @@
     "wintersmith": "^2.5.0",
     "yargs": "^17.6.2"
   },
-  "scripts": {},
+  "scripts": {
+    
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/mozilla/pdf.js.git"
   },
-  "license": "Apache-2.0",
-  "dependencies": {
-    "pdfjs-dist": "file:build/dist"
-  }
+  "license": "Apache-2.0"
 }

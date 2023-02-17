@@ -173,8 +173,8 @@ var _pdf_viewer = require("./pdf_viewer.js");
 var _struct_tree_layer_builder = require("./struct_tree_layer_builder.js");
 var _text_layer_builder = require("./text_layer_builder.js");
 var _xfa_layer_builder = require("./xfa_layer_builder.js");
-const pdfjsVersion = '3.4.117';
-const pdfjsBuild = '77dd04e54';
+const pdfjsVersion = '3.4.118';
+const pdfjsBuild = '751494921';
 class DefaultAnnotationLayerFactory {
   constructor() {
     throw new Error("The `DefaultAnnotationLayerFactory` has been removed, " + "please use the `annotationMode` option when initializing " + "the `PDFPageView`-instance to control AnnotationLayer rendering.");

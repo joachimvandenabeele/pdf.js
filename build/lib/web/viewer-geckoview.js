@@ -42,8 +42,8 @@ var _ui_utils = require("./ui_utils.js");
 var _app_options = require("./app_options.js");
 var _pdf_link_service = require("./pdf_link_service.js");
 var _app = require("./app.js");
-const pdfjsVersion = '3.4.117';
-const pdfjsBuild = '77dd04e54';
+const pdfjsVersion = '3.4.118';
+const pdfjsBuild = '751494921';
 const AppConstants = {
   LinkTarget: _pdf_link_service.LinkTarget,
   RenderingStates: _ui_utils.RenderingStates,

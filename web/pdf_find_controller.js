@@ -404,7 +404,8 @@ class PDFFindController {
   }
 
   #onFind(state) {
-    console.log("LE ME WANTS TO FIND SOMETHINGGG");
+    console.log("HELLOOOOOO");
+    debugger;
     if (!state) {
       return;
     }

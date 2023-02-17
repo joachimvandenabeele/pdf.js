@@ -280,5 +280,5 @@ var _annotation_layer = require("./display/annotation_layer.js");
 var _worker_options = require("./display/worker_options.js");
 var _svg = require("./display/svg.js");
 var _xfa_layer = require("./display/xfa_layer.js");
-const pdfjsVersion = '3.4.117';
-const pdfjsBuild = '77dd04e54';
+const pdfjsVersion = '3.4.118';
+const pdfjsBuild = '751494921';

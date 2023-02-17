@@ -104,7 +104,7 @@ class PDFViewer {
   #onVisibilityChange = null;
   #scaleTimeoutId = null;
   constructor(options) {
-    const viewerVersion = '3.4.117';
+    const viewerVersion = '3.4.118';
     if (_pdf.version !== viewerVersion) {
       throw new Error(`The API version "${_pdf.version}" does not match the Viewer version "${viewerVersion}".`);
     }

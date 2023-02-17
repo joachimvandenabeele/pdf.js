@@ -9053,8 +9053,8 @@ var _util = __w_pdfjs_require__(1);
 var _jbig = __w_pdfjs_require__(88);
 var _jpg = __w_pdfjs_require__(94);
 var _jpx = __w_pdfjs_require__(95);
-const pdfjsVersion = '3.4.117';
-const pdfjsBuild = '77dd04e54';
+const pdfjsVersion = '3.4.118';
+const pdfjsBuild = '751494921';
 })();
 
 /******/ 	return __webpack_exports__;

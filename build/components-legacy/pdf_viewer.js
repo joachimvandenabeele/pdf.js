@@ -2609,7 +2609,8 @@ class PDFFindController {
 }
 exports.PDFFindController = PDFFindController;
 function _onFind2(state) {
-  console.log("LE ME WANTS TO FIND SOMETHINGGG");
+  console.log("HELLOOOOOO");
+  debugger;
   if (!state) {
     return;
   }
@@ -6392,7 +6393,7 @@ class PDFViewer {
       writable: true,
       value: null
     });
-    const viewerVersion = '3.4.117';
+    const viewerVersion = '3.4.118';
     if (_pdfjsLib.version !== viewerVersion) {
       throw new Error(`The API version "${_pdfjsLib.version}" does not match the Viewer version "${viewerVersion}".`);
     }
@@ -8101,8 +8102,8 @@ var _pdf_viewer = __w_pdfjs_require__(24);
 var _struct_tree_layer_builder = __w_pdfjs_require__(16);
 var _text_layer_builder = __w_pdfjs_require__(19);
 var _xfa_layer_builder = __w_pdfjs_require__(20);
-const pdfjsVersion = '3.4.117';
-const pdfjsBuild = '77dd04e54';
+const pdfjsVersion = '3.4.118';
+const pdfjsBuild = '751494921';
 class DefaultAnnotationLayerFactory {
   constructor() {
     throw new Error("The `DefaultAnnotationLayerFactory` has been removed, " + "please use the `annotationMode` option when initializing " + "the `PDFPageView`-instance to control AnnotationLayer rendering.");
